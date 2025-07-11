@@ -93,6 +93,10 @@ h1 {
     align-items: center;
     padding: 8px 12px;
     gap: 10px;
+    color: #86858E;
+}
+
+.active {
     color: #fff;
 }
 
@@ -109,12 +113,31 @@ h1 {
     gap: 14px;
 }
 
+.search-frame {
+    position: relative;
+}
+
 .search-frame input {
     width: 216px;
     height: 44px;
     border-radius: 20px;
-    padding: 12px;
-    background-color: #dcdcf0;
+    padding-left: 44px;
+    background-color: #54545C;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.search-frame input::placeholder {
+    color: #fff;
+}
+
+.search-frame i {
+    color: #fff;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    font-size: 20px;
 }
 
 .user-frame {
@@ -124,4 +147,6 @@ h1 {
 
 .user-frame i {
     font-size: 24px;
+    color: #D1D0E5;
 }
+
