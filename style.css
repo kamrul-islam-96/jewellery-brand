@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+/** heading part **/
+.top-header {
+    width: 1440px;
+    height: 44px;
+    background-color: #23232cd2;
+    margin: 0 auto;
+    padding: 0 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frame-10 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.common-cls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #fff;
+}
+
+.common-cls i {
+    font-size: 24px;
+}
+
+.main-header {
+    width: 1440px;
+    height: 100px;
+    background-color: #050415;
+    margin: 0 auto;
+    padding: 0 120px;
+    display: flex;
+    align-items: center;
+    gap: 134px;
+}
+
+.frame-20 {
+    width: 430px;
+    height: 36px;
+    padding: 0 29px;
+    display: flex;
+}
+
+.home {
+    width: 97px;
+    height: 100%;
+    
+}
+
+.op-home {
+    padding: 8px 12px;
+}
+
+.shop {
+    width: 91px;
+    height: 100%;
+}
+
+.blog {
+    width: 86px;
+    height: 100%;
+}
+
+.pages {
+    width: 98px;
+    height: 100%;
+}
+
+.hsbp {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+    color: #fff;
+}
+
+.hsbp i {
+    font-size: 20px;
+}
+
+.frame-25 {
+    width: 430px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding-left: 88px;
+    gap: 14px;
+}
+
+.search-frame input {
+    width: 216px;
+    height: 44px;
+    border-radius: 20px;
+    padding: 12px;
+    background-color: #dcdcf0;
+}
+
+.user-frame {
+    display: flex;
+    gap: 20px;
+}
+
+.user-frame i {
+    font-size: 24px;
+}
