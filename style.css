@@ -710,3 +710,101 @@ hr {
     background-color: #3328BF;
     border: none;
 }
+
+
+/** footer **/
+.footer {
+    width: 1440px;
+    height: 616px;
+    background-color: #42434A;
+    margin: 0 auto;
+}
+
+.footer-top {
+    width: 100%;
+    height: 528px;
+    background-color: saddlebrown;
+    padding: 70px 145px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-features {
+    width: 100%;
+    height: 132px;
+    background-color: darkcyan;
+}
+
+.footer-links-tab {
+    width: 100%;
+    height: 206px;
+    background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-bottom {
+    width: 100%;
+    height: 88px;
+    padding: 24px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6F717E;
+}
+
+.footer-bottom P {
+    font-size: 18px;
+    font-weight: 400;
+    color: #EAEAEA;
+}
+
+.payment-method {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.method {
+    width: 100px;
+    height: 40px;
+    background-color: #ACADC8;
+    border-radius: 4px;
+}
+
+.world-pay {
+    padding: 12px 18px 9px;
+}
+
+.paypal {
+    padding: 9px 17px;
+}
+
+.visa {
+    padding: 0 26px;
+}
+
+.amazon {
+    padding: 15px 19px 6px;
+}
+
+.mastercard {
+    padding: 9px 31px 8px;
+}
+
+.method img {
+    width: 100%;
+    height: 100%;
+}
