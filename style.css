@@ -723,7 +723,6 @@ hr {
 .footer-top {
     width: 100%;
     height: 528px;
-    background-color: saddlebrown;
     padding: 70px 145px;
     display: flex;
     flex-direction: column;
@@ -733,26 +732,132 @@ hr {
 .footer-features {
     width: 100%;
     height: 132px;
-    background-color: darkcyan;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-box {
+    width: 267px;
+    height: 100%;
+    display: flex;
+    gap: 16px;
+    padding: 20px 30px 20px 0;
+}
+
+.icon-div i {
+    font-size: 40px;
+    color: #CFD0DD;
+}
+
+.foot-features-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.foot-features-detail h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #CFD0DD;
+}
+
+.foot-features-detail p {
+    color: #8A8A8A;
 }
 
 .footer-links-tab {
     width: 100%;
     height: 206px;
-    background-color: skyblue;
+    padding: 0 13px;
+    display: flex;
+    gap: 119px;
 }
 
+.contact-part {
+    width: 440px;
+    height: 100%;
+}
 
+.foot-logo img {
+    width: 135px;
+    height: 60px;
+}
 
+.contact-part p {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 24px 0 20px;
+    color: #CFD0DD;
+}
 
+.input-div {
+    width: 100%;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+}
 
+.input-div i {
+    font-size: 20px;
+}
 
+.input-div input {
+    width: 277px;
+    height: 100%;
+    padding: 8px 0 8px 16px;
+    border: none;
+    outline: none;
+}
 
+.input-div button {
+    width: 155px;
+    height: 44px;
+    border-radius: 8px;
+    padding: 10px 16px;
+    background-color: #3328BF;
+    color: #fff;
+    border: none;
+}
 
+.links-tab {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 16px;
+    display: flex;
+    gap: 120px;
+}
 
+.psu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+.psu p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #CFD0DD;
+}
 
+.psu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    line-height: 24px;
+}
 
+.psu ul li {
+    list-style: none;
+}
+
+.psu ul li a {
+    text-decoration: none;
+    color: #8A8A8A;
+}
 
 
 .footer-bottom {
